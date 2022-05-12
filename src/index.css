@@ -11,3 +11,63 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.wrapper{
+  max-width: 20%;
+  max-height: 100vh;
+}
+.border{
+  border-radius: 10px;
+}
+#btn{
+  width: 100%;
+  height: 50px;
+  margin: 2px;
+  color: white;
+}
+.equal{
+  width: 42%;
+  color: white !important;
+}
+#input{
+  /* width: %; */
+  text-align: right;
+  height: 50px;
+}
+.buttons{
+  height: 50vh;
+}
+.buttons div{
+  margin-top: 5px;
+}
+
+
+@media (max-width: 1000px){
+  .wrapper{
+    max-width: 90%;
+    max-height: 100vh;
+  }
+  .border{
+    border-radius: 15px;
+  }
+  #btn{
+    width: 100%;
+    height: 50px;
+    margin: 2px;
+    color: white;
+  }
+  .equal{
+    width: 42%;
+    color: white !important;
+  }
+  #input{
+    /* width: %; */
+    text-align: right;
+    height: 50px;
+  }
+  .buttons{
+    height: 65vh;
+  }
+  .buttons div{
+    margin-top: 5px;
+  }
+}
